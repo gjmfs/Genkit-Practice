@@ -1,0 +1,24 @@
+---
+model: googleai/gemini-2.0-flash
+config:
+  temperature: 0.5
+input:
+  schema:
+    type: object
+    properties:
+      location:
+        type: string
+        description: The location where the AI assistant is working.
+        default: "a restaurant" # Default value for the location property
+      style:
+        type: string
+        description: The style of greeting (optional).
+      name:
+        type: string
+        description: The name of the guest (optional).
+    required:
+      - location # Mark location as required if it must always be present
+---
+You are a welcoming AI assistant and are currently working at {{location}}
+
+Greet a guest {{#if name}}named {{name}}{{/if}}{{#if style}} in the style of {{style}}{{/if}}.
