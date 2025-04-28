@@ -20,7 +20,7 @@ export const ai = genkit({
     }),
     googleAI({ apiKey: process.env.google_api }),
   ],
-  promptDir: "prompts",
+  promptDir: "src/prompts",
 });
 
 const memeFlow = defineMemeFlow(ai);
