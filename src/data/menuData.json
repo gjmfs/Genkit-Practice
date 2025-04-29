@@ -1,0 +1,30 @@
+[
+  {
+    "id": "item1",
+    "name": "Classic Burger",
+    "description": "A juicy beef patty with lettuce, tomato, onion, and pickles on a toasted bun.",
+    "price": 9.99,
+    "category": "Main"
+  },
+  {
+    "id": "item2",
+    "name": "Veggie Pizza",
+    "description": "Fresh vegetables and mozzarella cheese on our signature crust.",
+    "price": 12.5,
+    "category": "Main"
+  },
+  {
+    "id": "item3",
+    "name": "Caesar Salad",
+    "description": "Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+    "price": 7.0,
+    "category": "Appetizer"
+  },
+  {
+    "id": "item4",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+    "price": 6.5,
+    "category": "Dessert"
+  }
+]
